@@ -1,0 +1,63 @@
+C:\Users\admin\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/Project/RN/vsomeip/test
+-- The C compiler identification is GNU 6.4.0
+-- The CXX compiler identification is GNU 6.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++.exe
+-- Check for working CXX compiler: /usr/bin/c++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) in CMakeLists.txt:
+  A logical block opening on the line
+
+    /cygdrive/d/Project/RN/vsomeip/test/CMakeLists.txt:17 (if)
+
+  closes on the line
+
+    /cygdrive/d/Project/RN/vsomeip/test/CMakeLists.txt:22 (endif)
+
+  with mis-matching arguments.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OS is CYGWIN
+CMake Error at CMakeLists.txt:50 (add_subdirectory):
+  add_subdirectory given source "osabstraction" which is not an existing
+  directory.
+
+
+CMake Warning (dev) in someip/CMakeLists.txt:
+  A logical block opening on the line
+
+    /cygdrive/d/Project/RN/vsomeip/test/someip/CMakeLists.txt:17 (if)
+
+  closes on the line
+
+    /cygdrive/d/Project/RN/vsomeip/test/someip/CMakeLists.txt:22 (endif)
+
+  with mis-matching arguments.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OS is CYGWIN
+-- * CMAKE_INSTALL_LIBDIR: lib
+-- * OS-Abst Project base: /cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction
+-- * OS-Abst Sources: /cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/multiplex/MultiplexerSelect.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/Address.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/ClientSocket.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/IP4Address.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/IP6Address.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/LocalAddress.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/NetworkDevice.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/ServerSocket.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/Socket.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/TCPClientSocket.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/TCPServerSocket.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/osabstraction/source/socket/UDPSocket.cpp
+-- * CMAKE_INSTALL_LIBDIR: lib
+-- * SOMEIP Project base: /cygdrive/d/Project/RN/vsomeip/test/someip/someip
+-- * SOMEIP Sources: /cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/endpoint/EndpointBase.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/message/MessageBuilder.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/message/MessageComposer.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/message/MessageHeader.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/message/MessagePayload.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/message/MessageSD.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/message/MessageSOMEIP.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/message/SDEntry.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/message/SDOption.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/packetrouter/PacketRouterProxy.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/runtime/ApplicationManager.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/runtime/EventManager.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/utils/byteorder/bytestream.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/utils/time/TimerMux.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/config/ConfigEvent.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/config/Configuration.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/config/ConfigurationSD.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/config/ServiceInfo.cpp
+-- * SOMEIP DAEMON Project base: /cygdrive/d/Project/RN/vsomeip/test/someip/someip
+-- * SOMEIP DAEMON Sources: /cygdrive/d/Project/RN/vsomeip/test/someip/someip/source/daemon/someipd.cpp
+-- * SOMEIP Interface Project base: /cygdrive/d/Project/RN/vsomeip/test/someip/interface
+-- * SOMEIP Interface Sources: /cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/application_impl.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/deserializer.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/error.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/message_base_impl.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/message_impl.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/payload_impl.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/runtime.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/runtime_impl.cpp;/cygdrive/d/Project/RN/vsomeip/test/someip/interface/source/serializer.cpp
+CMake Error at CMakeLists.txt:52 (add_subdirectory):
+  add_subdirectory given source "interface" which is not an existing
+  directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/d/Project/RN/vsomeip/test/cmake-build-debug/CMakeFiles/CMakeOutput.log".
