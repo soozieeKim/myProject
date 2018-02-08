@@ -1,0 +1,3695 @@
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hidl::base::V1_0::DebugInfo"
+      size: 24
+      alignment: 8
+    }
+    name: "android::hidl::base::V1_0::DebugInfo"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_09DebugInfoE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "pid"
+      access: public_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "unsigned long long"
+        size: 8
+        alignment: 8
+      }
+      name: "ptr"
+      access: public_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "arch"
+      access: public_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  mangled_record_name: "_ZN7android4hidl4base4V1_09DebugInfoE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hidl::base::V1_0::IBase"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBaseE"
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::RefBase"
+        size: 8
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: true
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  mangled_record_name: "_ZN7android4hidl4base4V1_05IBaseE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 4
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBaseE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android4hidl4base4V1_05IBase8isRemoteEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase21setHALInstrumentationEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase4pingEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase12getDebugInfoENSt3__18functionIFvRKNS2_9DebugInfoEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase21notifySyspropsChangedEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBase13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551612
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551612
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBaseE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_05IBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hidl::base::V1_0::BnHwBase"
+      size: 76
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::BnHwBase"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08BnHwBaseE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::sp<android::hidl::base::V1_0::IBase>"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_mImpl"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::BHwBinder"
+        size: 28
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor"
+        size: 44
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/BnHwBase.h"
+  mangled_record_name: "_ZN7android4hidl4base4V1_08BnHwBaseE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 68
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder11linkToDeathERKNS_2spINS0_7IBinder14DeathRecipientEEEPvj"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder13unlinkToDeathERKNS_2wpINS0_7IBinder14DeathRecipientEEEPvjPS5_"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android8hardware7IBinder13checkSubclassEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android8hardware9BHwBinder10findObjectEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder12detachObjectEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder11localBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder12remoteBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBase10onTransactEjRKNS_8hardware6ParcelEPS5_jNSt3__18functionIFvRS5_EEE"
+      value: 0
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551596
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551548
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551548
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl4base4V1_08BnHwBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "ConcurrentMap<K, V>"
+    }
+    name: "android::hardware::ConcurrentMap"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware13ConcurrentMapE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::mutex"
+        size: 4
+        alignment: 4
+      }
+      name: "mMutex"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "map<type-parameter-0-0, type-parameter-0-1, less<type-parameter-0-0>, allocator<pair<const type-parameter-0-0, type-parameter-0-1> > >"
+      }
+      name: "mMap"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/ConcurrentMap.h"
+  mangled_record_name: "_ZN7android8hardware13ConcurrentMapE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::ConcurrentMap<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<sp<IBinder> (void *)> >"
+      size: 16
+      alignment: 4
+    }
+    name: "android::hardware::ConcurrentMap"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware13ConcurrentMapINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_8functionIFNS_2spINS0_7IBinderEEEPvEEEEE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::mutex"
+        size: 4
+        alignment: 4
+      }
+      name: "mMutex"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<sp<IBinder> (void *)>, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<sp<IBinder> (void *)> > > >"
+        size: 12
+        alignment: 4
+      }
+      name: "mMap"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/ConcurrentMap.h"
+  template_info {
+    elements {
+      basic_abi {
+        type_abi {
+          name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+          size: 12
+          alignment: 4
+        }
+        linker_set_key: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      }
+    }
+    elements {
+      basic_abi {
+        type_abi {
+          name: "std::function<sp<IBinder> (void *)>"
+          size: 24
+          alignment: 8
+        }
+        linker_set_key: "std::function<sp<IBinder> (void *)>"
+      }
+    }
+  }
+  mangled_record_name: "_ZN7android8hardware13ConcurrentMapINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_8functionIFNS_2spINS0_7IBinderEEEPvEEEEE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::details::SchedPrio"
+      size: 8
+      alignment: 4
+    }
+    name: "android::hardware::details::SchedPrio"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details9SchedPrioE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "sched_policy"
+      access: public_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "prio"
+      access: public_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/Static.h"
+  mangled_record_name: "_ZN7android8hardware7details9SchedPrioE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::hidl_binder_death_recipient"
+      size: 40
+      alignment: 8
+    }
+    name: "android::hardware::hidl_binder_death_recipient"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware27hidl_binder_death_recipientE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::wp<android::hardware::hidl_death_recipient>"
+        size: 8
+        alignment: 4
+      }
+      name: "mRecipient"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "unsigned long long"
+        size: 8
+        alignment: 8
+      }
+      name: "mCookie"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::wp<android::hidl::base::V1_0::IBase>"
+        size: 8
+        alignment: 4
+      }
+      name: "mBase"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::IBinder::DeathRecipient"
+        size: 12
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  mangled_record_name: "_ZN7android8hardware27hidl_binder_death_recipientE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 32
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware27hidl_binder_death_recipientE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware27hidl_binder_death_recipient10binderDiedERKNS_2wpINS0_7IBinderEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware27hidl_binder_death_recipientD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware27hidl_binder_death_recipientD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware27hidl_binder_death_recipientE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware27hidl_binder_death_recipientD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware27hidl_binder_death_recipientD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::operator|"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0orENS2_9DebugInfo12ArchitectureES4_"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0orENS2_9DebugInfo12ArchitectureES4_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "lhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "rhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::operator|"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0orEiNS2_9DebugInfo12ArchitectureE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0orEiNS2_9DebugInfo12ArchitectureE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const int"
+        size: 4
+        alignment: 4
+      }
+      name: "lhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "rhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::operator|"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0orENS2_9DebugInfo12ArchitectureEi"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0orENS2_9DebugInfo12ArchitectureEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "lhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const int"
+        size: 4
+        alignment: 4
+      }
+      name: "rhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::operator&"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0anENS2_9DebugInfo12ArchitectureES4_"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0anENS2_9DebugInfo12ArchitectureES4_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "lhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "rhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::operator&"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0anEiNS2_9DebugInfo12ArchitectureE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0anEiNS2_9DebugInfo12ArchitectureE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const int"
+        size: 4
+        alignment: 4
+      }
+      name: "lhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "rhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::operator&"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0anENS2_9DebugInfo12ArchitectureEi"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0anENS2_9DebugInfo12ArchitectureEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "lhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const int"
+        size: 4
+        alignment: 4
+      }
+      name: "rhs"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int &"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::operator|="
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0oRERiNS2_9DebugInfo12ArchitectureE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0oRERiNS2_9DebugInfo12ArchitectureE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int &"
+        size: 4
+        alignment: 4
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "e"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int &"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::operator&="
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0aNERiNS2_9DebugInfo12ArchitectureE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0aNERiNS2_9DebugInfo12ArchitectureE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int &"
+        size: 4
+        alignment: 4
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "e"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::toString"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08toStringEi"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08toStringEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "o"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: ""
+        linker_set_key: ""
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::toString"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08toStringINS2_9DebugInfo12ArchitectureEEENSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEEi"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08toStringINS2_9DebugInfo12ArchitectureEEENSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "o"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        type_abi {
+          name: "android::hidl::base::V1_0::DebugInfo::Architecture"
+          size: 4
+          alignment: 4
+        }
+        linker_set_key: "android::hidl::base::V1_0::DebugInfo::Architecture"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::toString"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08toStringENS2_9DebugInfo12ArchitectureE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08toStringENS2_9DebugInfo12ArchitectureE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "o"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::toString"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08toStringERKNS2_9DebugInfoE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08toStringERKNS2_9DebugInfoE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo &"
+        size: 4
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hidl::base::V1_0::operator=="
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0eqERKNS2_9DebugInfoES5_"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0eqERKNS2_9DebugInfoES5_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo &"
+        size: 4
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo &"
+        size: 4
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hidl::base::V1_0::operator!="
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_0neERKNS2_9DebugInfoES5_"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_0neERKNS2_9DebugInfoES5_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo &"
+        size: 4
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hidl::base::V1_0::DebugInfo &"
+        size: 4
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hidl::base::V1_0::IBase::isRemote"
+    access: public_access
+    linker_set_key: "_ZNK7android4hidl4base4V1_05IBase8isRemoteEv"
+  }
+  mangled_function_name: "_ZNK7android4hidl4base4V1_05IBase8isRemoteEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::interfaceChain"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<hidl_string> &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::debug"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_handle &"
+        size: 4
+        alignment: 4
+      }
+      name: "fd"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<android::hardware::hidl_string> &"
+        size: 4
+        alignment: 4
+      }
+      name: "options"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::interfaceDescriptor"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_string &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::getHashChain"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<hidl_array<unsigned char, 32> > &)>"
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::setHALInstrumentation"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase21setHALInstrumentationEv"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase21setHALInstrumentationEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::linkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long long"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::ping"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase4pingEv"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase4pingEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::getDebugInfo"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase12getDebugInfoENSt3__18functionIFvRKNS2_9DebugInfoEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase12getDebugInfoENSt3__18functionIFvRKNS2_9DebugInfoEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const DebugInfo &)>"
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::notifySyspropsChanged"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase21notifySyspropsChangedEv"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase21notifySyspropsChangedEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::unlinkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<android::sp<android::hidl::base::V1_0::IBase> >"
+    }
+    name: "android::hidl::base::V1_0::IBase::castFrom"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase8castFromERKNS_2spIS3_EEb"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_05IBase8castFromERKNS_2spIS3_EEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "parent"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "emitError"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::toString"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08toStringERKNS_2spINS2_5IBaseEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08toStringERKNS_2spINS2_5IBaseEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hidl::base::V1_0::BnHwBase::BnHwBase"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08BnHwBaseC1ERKNS_2spINS2_5IBaseEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08BnHwBaseC1ERKNS_2spINS2_5IBaseEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/BnHwBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_impl"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hidl::base::V1_0::BnHwBase::BnHwBase"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08BnHwBaseC1ERKNS_2spINS2_5IBaseEEERKNSt3__112basic_stringIcNS9_11char_traitsIcEENS9_9allocatorIcEEEESH_"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08BnHwBaseC1ERKNS_2spINS2_5IBaseEEERKNSt3__112basic_stringIcNS9_11char_traitsIcEENS9_9allocatorIcEEEESH_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/BnHwBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_impl"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "HidlInstrumentor_package"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "HidlInstrumentor_interface"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::BnHwBase::onTransact"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08BnHwBase10onTransactEjRKNS_8hardware6ParcelEPS5_jNSt3__18functionIFvRS5_EEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08BnHwBase10onTransactEjRKNS_8hardware6ParcelEPS5_jNSt3__18functionIFvRS5_EEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/BnHwBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_code"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_data"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_reply"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (Parcel &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::base::V1_0::IBase>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::BnHwBase::getImpl"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08BnHwBase7getImplEv"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08BnHwBase7getImplEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/BnHwBase.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::BnHwBase::ping"
+    access: private_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08BnHwBase4pingEv"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08BnHwBase4pingEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/BnHwBase.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::BnHwBase::getDebugInfo"
+    access: private_access
+    linker_set_key: "_ZN7android4hidl4base4V1_08BnHwBase12getDebugInfoENSt3__18functionIFvRKNS2_9DebugInfoEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl4base4V1_08BnHwBase12getDebugInfoENSt3__18functionIFvRKNS2_9DebugInfoEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/BnHwBase.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const DebugInfo &)>"
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hardware::details::canCastInterface"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details16canCastInterfaceEPNS_4hidl4base4V1_05IBaseEPKcb"
+  }
+  mangled_function_name: "_ZN7android8hardware7details16canCastInterfaceEPNS_4hidl4base4V1_05IBaseEPKcb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlTransportUtils.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::IBase *"
+        size: 4
+        alignment: 4
+      }
+      name: "interface"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 4
+        alignment: 4
+      }
+      name: "castTo"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "emitError"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hardware::details::getDescriptor"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13getDescriptorEPNS_4hidl4base4V1_05IBaseE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13getDescriptorEPNS_4hidl4base4V1_05IBaseE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlTransportUtils.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::IBase *"
+        size: 4
+        alignment: 4
+      }
+      name: "interface"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::ConcurrentMap::set"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware13ConcurrentMap3setEOT_OT0_"
+  }
+  mangled_function_name: "_ZN7android8hardware13ConcurrentMap3setEOT_OT0_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/ConcurrentMap.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0 &&"
+      }
+      name: "k"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-1 &&"
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "const type-parameter-0-1 &"
+    }
+    name: "android::hardware::ConcurrentMap::get"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware13ConcurrentMap3getERKT_RKT0_"
+  }
+  mangled_function_name: "_ZNK7android8hardware13ConcurrentMap3getERKT_RKT0_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/ConcurrentMap.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 &"
+      }
+      name: "k"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-1 &"
+      }
+      name: "def"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "typename map<type-parameter-0-0, type-parameter-0-1, less<type-parameter-0-0>, allocator<pair<const type-parameter-0-0, type-parameter-0-1> > >::size_type"
+    }
+    name: "android::hardware::ConcurrentMap::erase"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware13ConcurrentMap5eraseERKT_"
+  }
+  mangled_function_name: "_ZN7android8hardware13ConcurrentMap5eraseERKT_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/ConcurrentMap.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 &"
+      }
+      name: "k"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::ConcurrentMap<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void *)> >::set"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware13ConcurrentMapINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_8functionIFNS_2spINS0_7IBinderEEEPvEEEE3setEOS8_OSF_"
+  }
+  mangled_function_name: "_ZN7android8hardware13ConcurrentMapINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_8functionIFNS_2spINS0_7IBinderEEEPvEEEE3setEOS8_OSF_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/ConcurrentMap.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> > &&"
+        size: 4
+        alignment: 4
+      }
+      name: "k"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<sp<IBinder> (void *)> &&"
+        size: 4
+        alignment: 4
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "const std::function<sp<IBinder> (void *)> &"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::ConcurrentMap<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void *)> >::get"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware13ConcurrentMapINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_8functionIFNS_2spINS0_7IBinderEEEPvEEEE3getERKS8_RKSF_"
+  }
+  mangled_function_name: "_ZNK7android8hardware13ConcurrentMapINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_8functionIFNS_2spINS0_7IBinderEEEPvEEEE3getERKS8_RKSF_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/ConcurrentMap.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "k"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::function<sp<IBinder> (void *)> &"
+        size: 4
+        alignment: 4
+      }
+      name: "def"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::ConcurrentMap<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void *)> >::erase"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware13ConcurrentMapINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_8functionIFNS_2spINS0_7IBinderEEEPvEEEE5eraseERKS8_"
+  }
+  mangled_function_name: "_ZN7android8hardware13ConcurrentMapINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_8functionIFNS_2spINS0_7IBinderEEEPvEEEE5eraseERKS8_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/ConcurrentMap.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "k"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::hidl_binder_death_recipient::hidl_binder_death_recipient"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware27hidl_binder_death_recipientC1ERKNS_2spINS0_20hidl_death_recipientEEEyRKNS2_INS_4hidl4base4V1_05IBaseEEE"
+  }
+  mangled_function_name: "_ZN7android8hardware27hidl_binder_death_recipientC1ERKNS_2spINS0_20hidl_death_recipientEEEyRKNS2_INS_4hidl4base4V1_05IBaseEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long long"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "base"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::hidl_binder_death_recipient::binderDied"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware27hidl_binder_death_recipient10binderDiedERKNS_2wpINS0_7IBinderEEE"
+  }
+  mangled_function_name: "_ZN7android8hardware27hidl_binder_death_recipient10binderDiedERKNS_2wpINS0_7IBinderEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::wp<android::hardware::IBinder> &"
+        size: 4
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::wp<android::hardware::hidl_death_recipient>"
+      size: 8
+      alignment: 4
+    }
+    name: "android::hardware::hidl_binder_death_recipient::getRecipient"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware27hidl_binder_death_recipient12getRecipientEv"
+  }
+  mangled_function_name: "_ZN7android8hardware27hidl_binder_death_recipient12getRecipientEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::readEmbeddedFromParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware22readEmbeddedFromParcelERKNS0_11hidl_memoryERKNS0_6ParcelEjj"
+  }
+  mangled_function_name: "_ZN7android8hardware22readEmbeddedFromParcelERKNS0_11hidl_memoryERKNS0_6ParcelEjj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_memory &"
+        size: 4
+        alignment: 4
+      }
+      name: "memory"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::writeEmbeddedToParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_11hidl_memoryEPNS0_6ParcelEjj"
+  }
+  mangled_function_name: "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_11hidl_memoryEPNS0_6ParcelEjj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_memory &"
+        size: 4
+        alignment: 4
+      }
+      name: "memory"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::readEmbeddedFromParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware22readEmbeddedFromParcelERKNS0_11hidl_stringERKNS0_6ParcelEjj"
+  }
+  mangled_function_name: "_ZN7android8hardware22readEmbeddedFromParcelERKNS0_11hidl_stringERKNS0_6ParcelEjj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_string &"
+        size: 4
+        alignment: 4
+      }
+      name: "string"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::writeEmbeddedToParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_11hidl_stringEPNS0_6ParcelEjj"
+  }
+  mangled_function_name: "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_11hidl_stringEPNS0_6ParcelEjj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_string &"
+        size: 4
+        alignment: 4
+      }
+      name: "string"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::writeToParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware13writeToParcelERKNS0_12hidl_versionERNS0_6ParcelE"
+  }
+  mangled_function_name: "_ZN7android8hardware13writeToParcelERKNS0_12hidl_versionERNS0_6ParcelE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_version &"
+        size: 4
+        alignment: 4
+      }
+      name: "version"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::hidl_version *"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::readFromParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware14readFromParcelERKNS0_6ParcelE"
+  }
+  mangled_function_name: "_ZN7android8hardware14readFromParcelERKNS0_6ParcelE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::readFromParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware14readFromParcelEPNS0_6StatusERKNS0_6ParcelE"
+  }
+  mangled_function_name: "_ZN7android8hardware14readFromParcelEPNS0_6StatusERKNS0_6ParcelE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status *"
+        size: 4
+        alignment: 4
+      }
+      name: "status"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::writeToParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware13writeToParcelERKNS0_6StatusEPNS0_6ParcelE"
+  }
+  mangled_function_name: "_ZN7android8hardware13writeToParcelERKNS0_6StatusEPNS0_6ParcelE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Status &"
+        size: 4
+        alignment: 4
+      }
+      name: "status"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::readEmbeddedFromParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware22readEmbeddedFromParcelERKNS0_8hidl_vecIT_EERKNS0_6ParcelEjjPj"
+  }
+  mangled_function_name: "_ZN7android8hardware22readEmbeddedFromParcelERKNS0_8hidl_vecIT_EERKNS0_6ParcelEjjPj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const hidl_vec<type-parameter-0-0> &"
+      }
+      name: "vec"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int *"
+        size: 4
+        alignment: 4
+      }
+      name: "handle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::writeEmbeddedToParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_8hidl_vecIT_EEPNS0_6ParcelEjjPj"
+  }
+  mangled_function_name: "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_8hidl_vecIT_EEPNS0_6ParcelEjjPj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const hidl_vec<type-parameter-0-0> &"
+      }
+      name: "vec"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int *"
+        size: 4
+        alignment: 4
+      }
+      name: "handle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::findInParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware12findInParcelERKNS0_8hidl_vecIT_EERKNS0_6ParcelEPj"
+  }
+  mangled_function_name: "_ZN7android8hardware12findInParcelERKNS0_8hidl_vecIT_EERKNS0_6ParcelEPj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const hidl_vec<type-parameter-0-0> &"
+      }
+      name: "vec"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int *"
+        size: 4
+        alignment: 4
+      }
+      name: "handle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::readEmbeddedFromParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware22readEmbeddedFromParcelERNS0_12MQDescriptorIT_XT0_EEERKNS0_6ParcelEjj"
+  }
+  mangled_function_name: "_ZN7android8hardware22readEmbeddedFromParcelERNS0_12MQDescriptorIT_XT0_EEERKNS0_6ParcelEjj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "MQDescriptor<type-parameter-0-0, flavor> &"
+      }
+      name: "obj"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "flavor"
+        linker_set_key: "flavor"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::writeEmbeddedToParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_12MQDescriptorIT_XT0_EEEPNS0_6ParcelEjj"
+  }
+  mangled_function_name: "_ZN7android8hardware21writeEmbeddedToParcelERKNS0_12MQDescriptorIT_XT0_EEEPNS0_6ParcelEjj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const MQDescriptor<type-parameter-0-0, flavor> &"
+      }
+      name: "obj"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "flavor"
+        linker_set_key: "flavor"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::readEmbeddedReferenceFromParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwareL31readEmbeddedReferenceFromParcelEPPKT_RKNS0_6ParcelEjjPjPb"
+  }
+  mangled_function_name: "_ZN7android8hardwareL31readEmbeddedReferenceFromParcelEPPKT_RKNS0_6ParcelEjjPjPb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 **"
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int *"
+        size: 4
+        alignment: 4
+      }
+      name: "handle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool *"
+        size: 4
+        alignment: 4
+      }
+      name: "shouldResolveRefInBuffer"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::writeEmbeddedReferenceToParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwareL30writeEmbeddedReferenceToParcelEPKT_PNS0_6ParcelEjjPjPb"
+  }
+  mangled_function_name: "_ZN7android8hardwareL30writeEmbeddedReferenceToParcelEPKT_PNS0_6ParcelEjjPjPb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 *"
+      }
+      name: "buf"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentHandle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "parentOffset"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int *"
+        size: 4
+        alignment: 4
+      }
+      name: "handle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool *"
+        size: 4
+        alignment: 4
+      }
+      name: "shouldResolveRefInBuffer"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::readReferenceFromParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwareL23readReferenceFromParcelEPPKT_RKNS0_6ParcelEPjPb"
+  }
+  mangled_function_name: "_ZN7android8hardwareL23readReferenceFromParcelEPPKT_RKNS0_6ParcelEPjPb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 **"
+      }
+      name: "bufptr"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int *"
+        size: 4
+        alignment: 4
+      }
+      name: "handle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool *"
+        size: 4
+        alignment: 4
+      }
+      name: "shouldResolveRefInBuffer"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::writeReferenceToParcel"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwareL22writeReferenceToParcelEPKT_PNS0_6ParcelEPjPb"
+  }
+  mangled_function_name: "_ZN7android8hardwareL22writeReferenceToParcelEPKT_PNS0_6ParcelEPjPb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 *"
+      }
+      name: "buf"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "parcel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int *"
+        size: 4
+        alignment: 4
+      }
+      name: "handle"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool *"
+        size: 4
+        alignment: 4
+      }
+      name: "shouldResolveRefInBuffer"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hardware::IBinder>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::toBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware8toBinderENS_2spIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware8toBinderENS_2spIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "sp<type-parameter-0-0>"
+      }
+      name: "iface"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "IType"
+        linker_set_key: "IType"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "ProxyType"
+        linker_set_key: "ProxyType"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "sp<type-parameter-0-0>"
+    }
+    name: "android::hardware::fromBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10fromBinderERKNS_2spINS0_7IBinderEEE"
+  }
+  mangled_function_name: "_ZN7android8hardware10fromBinderERKNS_2spINS0_7IBinderEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::IBinder> &"
+        size: 4
+        alignment: 4
+      }
+      name: "binderIface"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "IType"
+        linker_set_key: "IType"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "ProxyType"
+        linker_set_key: "ProxyType"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "StubType"
+        linker_set_key: "StubType"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::configureBinderRpcThreadpool"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware28configureBinderRpcThreadpoolEjb"
+  }
+  mangled_function_name: "_ZN7android8hardware28configureBinderRpcThreadpoolEjb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "maxThreads"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "callerWillJoin"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::joinBinderRpcThreadpool"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware23joinBinderRpcThreadpoolEv"
+  }
+  mangled_function_name: "_ZN7android8hardware23joinBinderRpcThreadpoolEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlBinderSupport.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::configureRpcThreadpool"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware22configureRpcThreadpoolEjb"
+  }
+  mangled_function_name: "_ZN7android8hardware22configureRpcThreadpoolEjb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlTransportSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "maxThreads"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "callerWillJoin"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::joinRpcThreadpool"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware17joinRpcThreadpoolEv"
+  }
+  mangled_function_name: "_ZN7android8hardware17joinRpcThreadpoolEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlTransportSupport.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::setMinSchedulerPolicy"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware21setMinSchedulerPolicyERKNS_2spINS_4hidl4base4V1_05IBaseEEEii"
+  }
+  mangled_function_name: "_ZN7android8hardware21setMinSchedulerPolicyERKNS_2spINS_4hidl4base4V1_05IBaseEEEii"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlTransportSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "service"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "policy"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "priority"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "Return<sp<type-parameter-0-0> >"
+    }
+    name: "android::hardware::details::castInterface"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13castInterfaceENS_2spIT0_EEPKcb"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13castInterfaceENS_2spIT0_EEPKcb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/HidlTransportSupport.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "sp<type-parameter-0-1>"
+      }
+      name: "parent"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 4
+        alignment: 4
+      }
+      name: "childIndicator"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "emitError"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "IChild"
+        linker_set_key: "IChild"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "IParent"
+        linker_set_key: "IParent"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "BpChild"
+        linker_set_key: "BpChild"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "BpParent"
+        linker_set_key: "BpParent"
+      }
+    }
+  }
+}
+enums {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::DebugInfo::Architecture"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_09DebugInfo12ArchitectureE"
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hidl::base::V1_0::DebugInfo::Architecture::UNKNOWN"
+      access: public_access
+      linker_set_key: "0"
+    }
+    enum_field_value: 0
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hidl::base::V1_0::DebugInfo::Architecture::IS_64BIT"
+      access: public_access
+      linker_set_key: "1"
+    }
+    enum_field_value: 1
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::DebugInfo::Architecture"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hidl::base::V1_0::DebugInfo::Architecture::IS_32BIT"
+      access: public_access
+      linker_set_key: "2"
+    }
+    enum_field_value: 2
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/types.h"
+}
+global_vars {
+  basic_abi {
+    type_abi {
+      name: "const char *"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::base::V1_0::IBase::descriptor"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl4base4V1_05IBase10descriptorE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/base/1.0/android.hidl.base@1.0_genc++_headers/gen/android/hidl/base/1.0/IBase.h"
+}
+global_vars {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::ConcurrentMap<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<sp<IBinder> (void *)> >"
+      size: 16
+      alignment: 4
+    }
+    name: "android::hardware::details::gBnConstructorMap"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17gBnConstructorMapE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/Static.h"
+}
+global_vars {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::ConcurrentMap<android::wp<android::hidl::base::V1_0::IBase>, android::hardware::details::SchedPrio>"
+    }
+    name: "android::hardware::details::gServicePrioMap"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details15gServicePrioMapE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/Static.h"
+}
+global_vars {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::ConcurrentMap<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<sp<IBase> (void *)> >"
+    }
+    name: "android::hardware::details::gBsConstructorMap"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17gBsConstructorMapE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/transport/include/hidl/Static.h"
+}

@@ -1,0 +1,457 @@
+records {
+  basic_abi {
+    type_abi {
+      name: "SynchronizedQueue<T>"
+    }
+    name: "android::hardware::details::SynchronizedQueue"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueueE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::condition_variable"
+        size: 48
+        alignment: 4
+      }
+      name: "mCondition"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::mutex"
+        size: 40
+        alignment: 4
+      }
+      name: "mMutex"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "queue<type-parameter-0-0, deque<type-parameter-0-0, allocator<type-parameter-0-0> > >"
+      }
+      name: "mQueue"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "const unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "mQueueLimit"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+  mangled_record_name: "_ZN7android8hardware7details17SynchronizedQueueE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::details::SynchronizedQueue<std::function<void ()> >"
+      size: 144
+      alignment: 8
+    }
+    name: "android::hardware::details::SynchronizedQueue"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEEE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::condition_variable"
+        size: 48
+        alignment: 4
+      }
+      name: "mCondition"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::mutex"
+        size: 40
+        alignment: 4
+      }
+      name: "mMutex"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::queue<std::function<void ()>, std::deque<std::function<void ()>, std::allocator<std::function<void ()> > > >"
+        size: 48
+        alignment: 8
+      }
+      name: "mQueue"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "const unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "mQueueLimit"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+  template_info {
+    elements {
+      basic_abi {
+        type_abi {
+          name: "std::function<void ()>"
+          size: 48
+          alignment: 16
+        }
+        linker_set_key: "std::function<void ()>"
+      }
+    }
+  }
+  mangled_record_name: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEEE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::details::TaskRunner"
+      size: 16
+      alignment: 8
+    }
+    name: "android::hardware::details::TaskRunner"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details10TaskRunnerE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::shared_ptr<android::hardware::details::SynchronizedQueue<std::function<void ()> > >"
+        size: 16
+        alignment: 8
+      }
+      name: "mQueue"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/TaskRunner.h"
+  mangled_record_name: "_ZN7android8hardware7details10TaskRunnerE"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::SynchronizedQueue::SynchronizedQueue<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueueC1Em"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueueC1Em"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "limit"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "type-parameter-0-0"
+    }
+    name: "android::hardware::details::SynchronizedQueue::wait_pop"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueue8wait_popEv"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueue8wait_popEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::details::SynchronizedQueue::push"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueue4pushERKT_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueue4pushERKT_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 &"
+      }
+      name: "item"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::details::SynchronizedQueue::size"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueue4sizeEv"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueue4sizeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::SynchronizedQueue<std::__1::function<void ()> >::SynchronizedQueue"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEEC1Em"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEEC1Em"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "limit"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::function<void ()>"
+      size: 48
+      alignment: 16
+    }
+    name: "android::hardware::details::SynchronizedQueue<std::__1::function<void ()> >::wait_pop"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE8wait_popEv"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE8wait_popEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::details::SynchronizedQueue<std::__1::function<void ()> >::push"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE4pushERKS6_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE4pushERKS6_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::function<void ()> &"
+        size: 8
+        alignment: 8
+      }
+      name: "item"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::details::SynchronizedQueue<std::__1::function<void ()> >::size"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE4sizeEv"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE4sizeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::SynchronizedQueue::SynchronizedQueue<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueueC1Em"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueueC1Em"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "limit"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "type-parameter-0-0"
+    }
+    name: "android::hardware::details::SynchronizedQueue::wait_pop"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueue8wait_popEv"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueue8wait_popEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::details::SynchronizedQueue::push"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueue4pushERKT_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueue4pushERKT_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 &"
+      }
+      name: "item"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::details::SynchronizedQueue::size"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details17SynchronizedQueue4sizeEv"
+  }
+  mangled_function_name: "_ZN7android8hardware7details17SynchronizedQueue4sizeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/SynchronizedQueue.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::TaskRunner::TaskRunner"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details10TaskRunnerC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7details10TaskRunnerC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/TaskRunner.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::TaskRunner::~TaskRunner"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details10TaskRunnerD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7details10TaskRunnerD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/TaskRunner.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::TaskRunner::start"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details10TaskRunner5startEm"
+  }
+  mangled_function_name: "_ZN7android8hardware7details10TaskRunner5startEm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/TaskRunner.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "limit"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::details::TaskRunner::push"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details10TaskRunner4pushERKNSt3__18functionIFvvEEE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details10TaskRunner4pushERKNSt3__18functionIFvvEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/TaskRunner.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::function<void ()> &"
+        size: 8
+        alignment: 8
+      }
+      name: "t"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}

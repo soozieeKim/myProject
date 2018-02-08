@@ -1,0 +1,2795 @@
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hidl::token::V1_0::ITokenManager"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManagerE"
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::IBase"
+        size: 12
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  mangled_record_name: "_ZN7android4hidl5token4V1_013ITokenManagerE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 4
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android4hidl5token4V1_013ITokenManager8isRemoteEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager21setHALInstrumentationEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager4pingEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager21notifySyspropsChangedEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManager3getERKNS_8hardware8hidl_vecIhEE"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551612
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551612
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_013ITokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hidl::token::V1_0::BpHwTokenManager"
+      size: 92
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManagerE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::mutex"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_mMutex"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::vector<android::sp<android::hardware::hidl_binder_death_recipient>, std::allocator<android::sp<android::hardware::hidl_binder_death_recipient> > >"
+        size: 12
+        alignment: 4
+      }
+      name: "_hidl_mDeathRecipients"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::BpInterface<android::hidl::token::V1_0::ITokenManager>"
+        size: 32
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor"
+        size: 44
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  mangled_record_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 84
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android4hidl5token4V1_016BpHwTokenManager8isRemoteEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager21setHALInstrumentationEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager4pingEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager21notifySyspropsChangedEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager3getERKNS_8hardware8hidl_vecIhEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpInterfaceINS_4hidl5token4V1_013ITokenManagerEE10onAsBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 80
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551612
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpInterfaceINS_4hidl5token4V1_013ITokenManagerEE10onAsBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 76
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551608
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551592
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551540
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551540
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551540
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551532
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551532
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hidl::token::V1_0::BnHwTokenManager"
+      size: 80
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BnHwTokenManager"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BnHwTokenManagerE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_mImpl"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::base::V1_0::BnHwBase"
+        size: 76
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BnHwTokenManager.h"
+  mangled_record_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 72
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder11linkToDeathERKNS_2spINS0_7IBinder14DeathRecipientEEEPvj"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder13unlinkToDeathERKNS_2wpINS0_7IBinder14DeathRecipientEEEPvjPS5_"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android8hardware7IBinder13checkSubclassEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android8hardware9BHwBinder10findObjectEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder12detachObjectEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder11localBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder12remoteBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManager10onTransactEjRKNS_8hardware6ParcelEPS5_jNSt3__18functionIFvRS5_EEE"
+      value: 0
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551596
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551544
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551544
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hidl::token::V1_0::BsTokenManager"
+      size: 68
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManagerE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::token::V1_0::ITokenManager>"
+        size: 4
+        alignment: 4
+      }
+      name: "mImpl"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::TaskRunner"
+        size: 8
+        alignment: 4
+      }
+      name: "mOnewayQueue"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hidl::token::V1_0::ITokenManager"
+        size: 12
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor"
+        size: 44
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  mangled_record_name: "_ZN7android4hidl5token4V1_014BsTokenManagerE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 60
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android4hidl5token4V1_013ITokenManager8isRemoteEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager21setHALInstrumentationEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager4pingEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager21notifySyspropsChangedEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManager3getERKNS_8hardware8hidl_vecIhEE"
+      value: 0
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551612
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551556
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551556
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android4hidl5token4V1_014BsTokenManagerD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::isRemote"
+    access: public_access
+    linker_set_key: "_ZNK7android4hidl5token4V1_013ITokenManager8isRemoteEv"
+  }
+  mangled_function_name: "_ZNK7android4hidl5token4V1_013ITokenManager8isRemoteEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::createToken"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "store"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<unsigned char> &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::unregister"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<unsigned char> &"
+        size: 4
+        alignment: 4
+      }
+      name: "token"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<android::sp<android::hidl::base::V1_0::IBase> >"
+      size: 28
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::get"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager3getERKNS_8hardware8hidl_vecIhEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager3getERKNS_8hardware8hidl_vecIhEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<unsigned char> &"
+        size: 4
+        alignment: 4
+      }
+      name: "token"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::interfaceChain"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<hidl_string> &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::debug"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_handle &"
+        size: 4
+        alignment: 4
+      }
+      name: "fd"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<android::hardware::hidl_string> &"
+        size: 4
+        alignment: 4
+      }
+      name: "options"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::interfaceDescriptor"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_string &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::getHashChain"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<hidl_array<unsigned char, 32> > &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::setHALInstrumentation"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager21setHALInstrumentationEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager21setHALInstrumentationEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::linkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long long"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::ping"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager4pingEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager4pingEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::getDebugInfo"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const DebugInfo &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::notifySyspropsChanged"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager21notifySyspropsChangedEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager21notifySyspropsChangedEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::unlinkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<android::sp<android::hidl::token::V1_0::ITokenManager> >"
+      size: 28
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::castFrom"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager8castFromERKNS_2spIS3_EEb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager8castFromERKNS_2spIS3_EEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::token::V1_0::ITokenManager> &"
+        size: 4
+        alignment: 4
+      }
+      name: "parent"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "emitError"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<android::sp<android::hidl::token::V1_0::ITokenManager> >"
+      size: 28
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::castFrom"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager8castFromERKNS_2spINS0_4base4V1_05IBaseEEEb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager8castFromERKNS_2spINS0_4base4V1_05IBaseEEEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "parent"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "emitError"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::tryGetService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager13tryGetServiceERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager13tryGetServiceERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "serviceName"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "getStub"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::tryGetService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager13tryGetServiceEPKcb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager13tryGetServiceEPKcb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 4
+        alignment: 4
+      }
+      name: "serviceName"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "getStub"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::tryGetService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager13tryGetServiceERKNS_8hardware11hidl_stringEb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager13tryGetServiceERKNS_8hardware11hidl_stringEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_string &"
+        size: 4
+        alignment: 4
+      }
+      name: "serviceName"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "getStub"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::tryGetService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager13tryGetServiceEb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager13tryGetServiceEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "getStub"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::getService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager10getServiceERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager10getServiceERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "serviceName"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "getStub"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::getService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager10getServiceEPKcb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager10getServiceEPKcb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 4
+        alignment: 4
+      }
+      name: "serviceName"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "getStub"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::getService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager10getServiceERKNS_8hardware11hidl_stringEb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager10getServiceERKNS_8hardware11hidl_stringEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_string &"
+        size: 4
+        alignment: 4
+      }
+      name: "serviceName"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "getStub"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::getService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager10getServiceEb"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager10getServiceEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "getStub"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::registerAsService"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager17registerAsServiceERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager17registerAsServiceERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "serviceName"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::registerForNotifications"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager24registerForNotificationsERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEERKNS_2spINS0_7manager4V1_020IServiceNotificationEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_013ITokenManager24registerForNotificationsERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEERKNS_2spINS0_7manager4V1_020IServiceNotificationEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "serviceName"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::manager::V1_0::IServiceNotification> &"
+        size: 4
+        alignment: 4
+      }
+      name: "notification"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 12
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::toString"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_08toStringERKNS_2spINS2_13ITokenManagerEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_08toStringERKNS_2spINS2_13ITokenManagerEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::token::V1_0::ITokenManager> &"
+        size: 4
+        alignment: 4
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::BpHwTokenManager"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManagerC1ERKNS_2spINS_8hardware7IBinderEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManagerC1ERKNS_2spINS_8hardware7IBinderEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::IBinder> &"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_impl"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::isRemote"
+    access: public_access
+    linker_set_key: "_ZNK7android4hidl5token4V1_016BpHwTokenManager8isRemoteEv"
+  }
+  mangled_function_name: "_ZNK7android4hidl5token4V1_016BpHwTokenManager8isRemoteEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::createToken"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "store"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<unsigned char> &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::unregister"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<unsigned char> &"
+        size: 4
+        alignment: 4
+      }
+      name: "token"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<android::sp<android::hidl::base::V1_0::IBase> >"
+      size: 28
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::get"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager3getERKNS_8hardware8hidl_vecIhEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager3getERKNS_8hardware8hidl_vecIhEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<unsigned char> &"
+        size: 4
+        alignment: 4
+      }
+      name: "token"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::interfaceChain"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<hidl_string> &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::debug"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_handle &"
+        size: 4
+        alignment: 4
+      }
+      name: "fd"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<android::hardware::hidl_string> &"
+        size: 4
+        alignment: 4
+      }
+      name: "options"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::interfaceDescriptor"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_string &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::getHashChain"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<hidl_array<unsigned char, 32> > &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::setHALInstrumentation"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager21setHALInstrumentationEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager21setHALInstrumentationEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::linkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long long"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::ping"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager4pingEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager4pingEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::getDebugInfo"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const DebugInfo &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::notifySyspropsChanged"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager21notifySyspropsChangedEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager21notifySyspropsChangedEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BpHwTokenManager::unlinkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BpHwTokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BpHwTokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BpHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hidl::token::V1_0::BnHwTokenManager::BnHwTokenManager"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BnHwTokenManagerC1ERKNS_2spINS2_13ITokenManagerEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerC1ERKNS_2spINS2_13ITokenManagerEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BnHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::token::V1_0::ITokenManager> &"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_impl"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hidl::token::V1_0::BnHwTokenManager::BnHwTokenManager"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BnHwTokenManagerC1ERKNS_2spINS2_13ITokenManagerEEERKNSt3__112basic_stringIcNS9_11char_traitsIcEENS9_9allocatorIcEEEESH_"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BnHwTokenManagerC1ERKNS_2spINS2_13ITokenManagerEEERKNSt3__112basic_stringIcNS9_11char_traitsIcEENS9_9allocatorIcEEEESH_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BnHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::token::V1_0::ITokenManager> &"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_impl"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "HidlInstrumentor_package"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 4
+        alignment: 4
+      }
+      name: "HidlInstrumentor_interface"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BnHwTokenManager::onTransact"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BnHwTokenManager10onTransactEjRKNS_8hardware6ParcelEPS5_jNSt3__18functionIFvRS5_EEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BnHwTokenManager10onTransactEjRKNS_8hardware6ParcelEPS5_jNSt3__18functionIFvRS5_EEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BnHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_code"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_data"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_reply"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "_hidl_flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (Parcel &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::token::V1_0::ITokenManager>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BnHwTokenManager::getImpl"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BnHwTokenManager7getImplEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BnHwTokenManager7getImplEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BnHwTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BnHwTokenManager::ping"
+    access: private_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BnHwTokenManager4pingEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BnHwTokenManager4pingEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BnHwTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BnHwTokenManager::getDebugInfo"
+    access: private_access
+    linker_set_key: "_ZN7android4hidl5token4V1_016BnHwTokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_016BnHwTokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BnHwTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const DebugInfo &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::BsTokenManager"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManagerC1ENS_2spINS2_13ITokenManagerEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManagerC1ENS_2spINS2_13ITokenManagerEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::token::V1_0::ITokenManager>"
+        size: 4
+        alignment: 4
+      }
+      name: "impl"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::createToken"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager11createTokenERKNS_2spINS0_4base4V1_05IBaseEEENSt3__18functionIFvRKNS_8hardware8hidl_vecIhEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hidl::base::V1_0::IBase> &"
+        size: 4
+        alignment: 4
+      }
+      name: "store"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<unsigned char> &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::unregister"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager10unregisterERKNS_8hardware8hidl_vecIhEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<unsigned char> &"
+        size: 4
+        alignment: 4
+      }
+      name: "token"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<android::sp<android::hidl::base::V1_0::IBase> >"
+      size: 28
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::get"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager3getERKNS_8hardware8hidl_vecIhEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager3getERKNS_8hardware8hidl_vecIhEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<unsigned char> &"
+        size: 4
+        alignment: 4
+      }
+      name: "token"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::interfaceChain"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<hidl_string> &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::debug"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_handle &"
+        size: 4
+        alignment: 4
+      }
+      name: "fd"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_vec<android::hardware::hidl_string> &"
+        size: 4
+        alignment: 4
+      }
+      name: "options"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::interfaceDescriptor"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_string &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::getHashChain"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const hidl_vec<hidl_array<unsigned char, 32> > &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::setHALInstrumentation"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager21setHALInstrumentationEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager21setHALInstrumentationEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::linkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long long"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::ping"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager4pingEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager4pingEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::getDebugInfo"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager12getDebugInfoENSt3__18functionIFvRKNS0_4base4V1_09DebugInfoEEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (const DebugInfo &)>"
+        size: 24
+        alignment: 8
+      }
+      name: "_hidl_cb"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::notifySyspropsChanged"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager21notifySyspropsChangedEv"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager21notifySyspropsChangedEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<bool>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::unlinkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::hidl_death_recipient> &"
+        size: 4
+        alignment: 4
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 24
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::BsTokenManager::addOnewayTask"
+    access: private_access
+    linker_set_key: "_ZN7android4hidl5token4V1_014BsTokenManager13addOnewayTaskENSt3__18functionIFvvEEE"
+  }
+  mangled_function_name: "_ZN7android4hidl5token4V1_014BsTokenManager13addOnewayTaskENSt3__18functionIFvvEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/BsTokenManager.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void ()>"
+        size: 24
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+global_vars {
+  basic_abi {
+    type_abi {
+      name: "const char *"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hidl::token::V1_0::ITokenManager::descriptor"
+    access: public_access
+    linker_set_key: "_ZN7android4hidl5token4V1_013ITokenManager10descriptorE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/out/soong/.intermediates/system/libhidl/transport/token/1.0/android.hidl.token@1.0_genc++_headers/gen/android/hidl/token/1.0/ITokenManager.h"
+}

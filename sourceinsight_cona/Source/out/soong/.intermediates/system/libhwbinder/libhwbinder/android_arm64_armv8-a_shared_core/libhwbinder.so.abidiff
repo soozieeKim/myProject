@@ -1,0 +1,3 @@
+lib_name: "libhwbinder.so"
+arch: "arm64"
+compatibility_status: COMPATIBLE

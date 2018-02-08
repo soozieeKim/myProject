@@ -1,0 +1,207 @@
+functions {
+  basic_abi {
+    type_abi {
+      name: "const char *"
+      size: 4
+      alignment: 4
+    }
+    name: "stringForIndent"
+    access: public_access
+    linker_set_key: "stringForIndent"
+  }
+  mangled_function_name: "stringForIndent"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Debug.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "indentLevel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "printTypeCode"
+    access: public_access
+    linker_set_key: "printTypeCode"
+  }
+  mangled_function_name: "printTypeCode"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Debug.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "typeCode"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void (*)(void *, const char *)"
+        size: 4
+        alignment: 4
+      }
+      name: "func"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 4
+        alignment: 4
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "printHexData"
+    access: public_access
+    linker_set_key: "printHexData"
+  }
+  mangled_function_name: "printHexData"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Debug.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "indent"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 4
+        alignment: 4
+      }
+      name: "buf"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "length"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "bytesPerLine"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "singleLineBytesCutoff"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "alignment"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "cArrayStyle"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void (*)(void *, const char *)"
+        size: 4
+        alignment: 4
+      }
+      name: "func"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 4
+        alignment: 4
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}

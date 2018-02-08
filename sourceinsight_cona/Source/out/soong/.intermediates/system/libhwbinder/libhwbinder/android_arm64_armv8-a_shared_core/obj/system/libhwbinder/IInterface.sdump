@@ -1,0 +1,2281 @@
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder"
+      size: 24
+      alignment: 8
+    }
+    name: "android::hardware::IBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinderE"
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::RefBase"
+        size: 16
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: true
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  mangled_record_name: "_ZN7android8hardware7IBinderE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 8
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware7IBinderE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder11linkToDeathERKNS_2spINS1_14DeathRecipientEEEPvj"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder13unlinkToDeathERKNS_2wpINS1_14DeathRecipientEEEPvjPS4_"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android8hardware7IBinder13checkSubclassEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android8hardware7IBinder10findObjectEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder12detachObjectEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder11localBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder12remoteBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware7IBinderD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinderD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551608
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551608
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware7IBinderE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware7IBinderD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinderD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder::DeathRecipient"
+      size: 24
+      alignment: 8
+    }
+    name: "android::hardware::IBinder::DeathRecipient"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder14DeathRecipientE"
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::RefBase"
+        size: 16
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: true
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  mangled_record_name: "_ZN7android8hardware7IBinder14DeathRecipientE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 8
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware7IBinder14DeathRecipientE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder14DeathRecipient10binderDiedERKNS_2wpIS1_EE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder14DeathRecipientD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder14DeathRecipientD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551608
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551608
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware7IBinder14DeathRecipientE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder14DeathRecipientD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder14DeathRecipientD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::BHwBinder"
+      size: 48
+      alignment: 8
+    }
+    name: "android::hardware::BHwBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinderE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "mSchedPolicy"
+      access: protected_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "mSchedPriority"
+      access: protected_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::atomic<android::hardware::BHwBinder::Extras *>"
+        size: 8
+        alignment: 8
+      }
+      name: "mExtras"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "mReserved0"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::IBinder"
+        size: 24
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  mangled_record_name: "_ZN7android8hardware9BHwBinderE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 32
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware9BHwBinderE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder11linkToDeathERKNS_2spINS0_7IBinder14DeathRecipientEEEPvj"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder13unlinkToDeathERKNS_2wpINS0_7IBinder14DeathRecipientEEEPvjPS5_"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android8hardware7IBinder13checkSubclassEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZNK7android8hardware9BHwBinder10findObjectEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder12detachObjectEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder11localBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware7IBinder12remoteBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinderD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinderD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinder10onTransactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware9BHwBinderE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinderD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware9BHwBinderD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::BpHwRefBase"
+      size: 48
+      alignment: 8
+    }
+    name: "android::hardware::BpHwRefBase"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBaseE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::IBinder *const"
+        size: 8
+        alignment: 8
+      }
+      name: "mRemote"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::RefBase::weakref_type *"
+        size: 8
+        alignment: 8
+      }
+      name: "mRefs"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::atomic<int>"
+        size: 4
+        alignment: 4
+      }
+      name: "mState"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::RefBase"
+        size: 16
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: true
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  mangled_record_name: "_ZN7android8hardware11BpHwRefBaseE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 32
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBaseE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551584
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBaseE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBaseD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware11BpHwRefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IInterface"
+      size: 24
+      alignment: 8
+    }
+    name: "android::hardware::IInterface"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10IInterfaceE"
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::RefBase"
+        size: 16
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: true
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  mangled_record_name: "_ZN7android8hardware10IInterfaceE"
+  vtable_layout {
+    vtable_components {
+      kind: VBaseOffset
+      mangled_component_name: ""
+      value: 8
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware10IInterfaceE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware10IInterfaceD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware10IInterfaceD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware10IInterface10onAsBinderEv"
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: VCallOffset
+      mangled_component_name: ""
+      value: 18446744073709551608
+    }
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 18446744073709551608
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware10IInterfaceE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware10IInterfaceD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware10IInterfaceD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase10onFirstRefEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase15onLastStrongRefEPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android7RefBase13onLastWeakRefEPKv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "BnInterface<INTERFACE>"
+    }
+    name: "android::hardware::BnInterface"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BnInterfaceE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "const sp<type-parameter-0-0>"
+      }
+      name: "mImpl"
+      access: protected_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0"
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::IInterface"
+        size: 24
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::BHwBinder"
+        size: 48
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  mangled_record_name: "_ZN7android8hardware11BnInterfaceE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "BpInterface<INTERFACE>"
+    }
+    name: "android::hardware::BpInterface"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BpInterfaceE"
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0"
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::IInterface"
+        size: 24
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::BpHwRefBase"
+        size: 48
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  mangled_record_name: "_ZN7android8hardware11BpInterfaceE"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::IBinder::IBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinderC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinderC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::IBinder::transact"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "code"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 8
+        alignment: 8
+      }
+      name: "data"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 8
+        alignment: 8
+      }
+      name: "reply"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (Parcel &)>"
+        size: 48
+        alignment: 16
+      }
+      name: "callback"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::IBinder::DeathRecipient::binderDied"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder14DeathRecipient10binderDiedERKNS_2wpIS1_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinder14DeathRecipient10binderDiedERKNS_2wpIS1_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::wp<android::hardware::IBinder> &"
+        size: 8
+        alignment: 8
+      }
+      name: "who"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::IBinder::linkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder11linkToDeathERKNS_2spINS1_14DeathRecipientEEEPvj"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinder11linkToDeathERKNS_2spINS1_14DeathRecipientEEEPvj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::IBinder::DeathRecipient> &"
+        size: 8
+        alignment: 8
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::IBinder::unlinkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder13unlinkToDeathERKNS_2wpINS1_14DeathRecipientEEEPvjPS4_"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinder13unlinkToDeathERKNS_2wpINS1_14DeathRecipientEEEPvjPS4_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::wp<android::hardware::IBinder::DeathRecipient> &"
+        size: 8
+        alignment: 8
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::wp<android::hardware::IBinder::DeathRecipient> *"
+        size: 8
+        alignment: 8
+      }
+      name: "outRecipient"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::IBinder::checkSubclass"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7IBinder13checkSubclassEPKv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7IBinder13checkSubclassEPKv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "subclassID"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::IBinder::attachObject"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "objectID"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "object"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "cleanupCookie"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void (*)(const void *, void *, void *)"
+        size: 8
+        alignment: 8
+      }
+      name: "func"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::IBinder::findObject"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7IBinder10findObjectEPKv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7IBinder10findObjectEPKv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "objectID"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::IBinder::detachObject"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder12detachObjectEPKv"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinder12detachObjectEPKv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "objectID"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::BHwBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::IBinder::localBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder11localBinderEv"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinder11localBinderEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::BpHwBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::IBinder::remoteBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinder12remoteBinderEv"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinder12remoteBinderEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::IBinder::~IBinder"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware7IBinderD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7IBinderD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BHwBinder::BHwBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinderC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinderC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::BHwBinder::transact"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "code"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 8
+        alignment: 8
+      }
+      name: "data"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 8
+        alignment: 8
+      }
+      name: "reply"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (Parcel &)>"
+        size: 48
+        alignment: 16
+      }
+      name: "callback"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::BHwBinder::linkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder11linkToDeathERKNS_2spINS0_7IBinder14DeathRecipientEEEPvj"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder11linkToDeathERKNS_2spINS0_7IBinder14DeathRecipientEEEPvj"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::IBinder::DeathRecipient> &"
+        size: 8
+        alignment: 8
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::BHwBinder::unlinkToDeath"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder13unlinkToDeathERKNS_2wpINS0_7IBinder14DeathRecipientEEEPvjPS5_"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder13unlinkToDeathERKNS_2wpINS0_7IBinder14DeathRecipientEEEPvjPS5_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::wp<android::hardware::IBinder::DeathRecipient> &"
+        size: 8
+        alignment: 8
+      }
+      name: "recipient"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::wp<android::hardware::IBinder::DeathRecipient> *"
+        size: 8
+        alignment: 8
+      }
+      name: "outRecipient"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BHwBinder::attachObject"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "objectID"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "object"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "cleanupCookie"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void (*)(const void *, void *, void *)"
+        size: 8
+        alignment: 8
+      }
+      name: "func"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BHwBinder::findObject"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware9BHwBinder10findObjectEPKv"
+  }
+  mangled_function_name: "_ZNK7android8hardware9BHwBinder10findObjectEPKv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "objectID"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BHwBinder::detachObject"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder12detachObjectEPKv"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder12detachObjectEPKv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "objectID"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::BHwBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BHwBinder::localBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder11localBinderEv"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder11localBinderEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::BHwBinder::getMinSchedulingPolicy"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder22getMinSchedulingPolicyEv"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder22getMinSchedulingPolicyEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::BHwBinder::getMinSchedulingPriority"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder24getMinSchedulingPriorityEv"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder24getMinSchedulingPriorityEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BHwBinder::~BHwBinder"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware9BHwBinderD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinderD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::BHwBinder::onTransact"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware9BHwBinder10onTransactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinder10onTransactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "code"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Parcel &"
+        size: 8
+        alignment: 8
+      }
+      name: "data"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Parcel *"
+        size: 8
+        alignment: 8
+      }
+      name: "reply"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "flags"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::function<void (Parcel &)>"
+        size: 48
+        alignment: 16
+      }
+      name: "callback"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BHwBinder::BHwBinder"
+    access: private_access
+    linker_set_key: "_ZN7android8hardware9BHwBinderC1ERKS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinderC1ERKS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::BHwBinder &"
+        size: 8
+        alignment: 8
+      }
+      name: "o"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::BHwBinder &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BHwBinder::operator="
+    access: private_access
+    linker_set_key: "_ZN7android8hardware9BHwBinderaSERKS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware9BHwBinderaSERKS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::BHwBinder &"
+        size: 8
+        alignment: 8
+      }
+      name: "o"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BpHwRefBase::BpHwRefBase"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBaseC1ERKNS_2spINS0_7IBinderEEE"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpHwRefBaseC1ERKNS_2spINS0_7IBinderEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::IBinder> &"
+        size: 8
+        alignment: 8
+      }
+      name: "o"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BpHwRefBase::~BpHwRefBase"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBaseD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpHwRefBaseD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BpHwRefBase::onFirstRef"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBase10onFirstRefEv"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpHwRefBase10onFirstRefEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BpHwRefBase::onLastStrongRef"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBase15onLastStrongRefEPKv"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpHwRefBase15onLastStrongRefEPKv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "id"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::BpHwRefBase::onIncStrongAttempted"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBase20onIncStrongAttemptedEjPKv"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpHwRefBase20onIncStrongAttemptedEjPKv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "flags"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "id"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BpHwRefBase::remote"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBase6remoteEv"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpHwRefBase6remoteEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BpHwRefBase::remote"
+    access: protected_access
+    linker_set_key: "_ZNK7android8hardware11BpHwRefBase6remoteEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware11BpHwRefBase6remoteEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BpHwRefBase::BpHwRefBase"
+    access: private_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBaseC1ERKS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpHwRefBaseC1ERKS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::BpHwRefBase &"
+        size: 8
+        alignment: 8
+      }
+      name: "o"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::BpHwRefBase &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BpHwRefBase::operator="
+    access: private_access
+    linker_set_key: "_ZN7android8hardware11BpHwRefBaseaSERKS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpHwRefBaseaSERKS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Binder.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::BpHwRefBase &"
+        size: 8
+        alignment: 8
+      }
+      name: "o"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::IInterface::IInterface"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10IInterfaceC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware10IInterfaceC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hardware::IBinder>"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::IInterface::asBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10IInterface8asBinderEPKS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware10IInterface8asBinderEPKS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::IInterface *"
+        size: 8
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hardware::IBinder>"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::IInterface::asBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10IInterface8asBinderERKNS_2spIS1_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware10IInterface8asBinderERKNS_2spIS1_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::IInterface> &"
+        size: 8
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::IInterface::~IInterface"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware10IInterfaceD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware10IInterfaceD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::IInterface::onAsBinder"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware10IInterface10onAsBinderEv"
+  }
+  mangled_function_name: "_ZN7android8hardware10IInterface10onAsBinderEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BnInterface::BnInterface<INTERFACE>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BnInterfaceC1ERKNS_2spIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware11BnInterfaceC1ERKNS_2spIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const sp<type-parameter-0-0> &"
+      }
+      name: "impl"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BnInterface::onAsBinder"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware11BnInterface10onAsBinderEv"
+  }
+  mangled_function_name: "_ZN7android8hardware11BnInterface10onAsBinderEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BnInterface::BnInterface<INTERFACE>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BnInterfaceC1ERKNS_2spIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware11BnInterfaceC1ERKNS_2spIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const sp<type-parameter-0-0> &"
+      }
+      name: "impl"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BpInterface::BpInterface<INTERFACE>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BpInterfaceC1ERKNS_2spINS0_7IBinderEEE"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpInterfaceC1ERKNS_2spINS0_7IBinderEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::IBinder> &"
+        size: 8
+        alignment: 8
+      }
+      name: "remote"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BpInterface::onAsBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BpInterface10onAsBinderEv"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpInterface10onAsBinderEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BnInterface::onAsBinder"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware11BnInterface10onAsBinderEv"
+  }
+  mangled_function_name: "_ZN7android8hardware11BnInterface10onAsBinderEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::BpInterface::BpInterface<INTERFACE>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BpInterfaceC1ERKNS_2spINS0_7IBinderEEE"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpInterfaceC1ERKNS_2spINS0_7IBinderEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::sp<android::hardware::IBinder> &"
+        size: 8
+        alignment: 8
+      }
+      name: "remote"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::IBinder *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::BpInterface::onAsBinder"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware11BpInterface10onAsBinderEv"
+  }
+  mangled_function_name: "_ZN7android8hardware11BpInterface10onAsBinderEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IInterface.h"
+}
+enums {
+  basic_abi {
+    type_abi {
+      name: "unsigned int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::IBinder::(anonymous)"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7IBinderUt_E"
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::IBinder::(anonymous)"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::IBinder::FLAG_ONEWAY"
+      access: public_access
+      linker_set_key: "1"
+    }
+    enum_field_value: 1
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/IBinder.h"
+}

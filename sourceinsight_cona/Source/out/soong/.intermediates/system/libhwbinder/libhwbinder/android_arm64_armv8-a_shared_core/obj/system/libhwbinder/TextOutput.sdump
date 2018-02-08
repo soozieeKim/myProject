@@ -1,0 +1,1723 @@
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::TextOutput"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutputE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  mangled_record_name: "_ZN7android8hardware10TextOutputE"
+  vtable_layout {
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware10TextOutputE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware10TextOutputD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware10TextOutputD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware10TextOutput5printEPKcm"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware10TextOutput10moveIndentEi"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware10TextOutput10pushBundleEv"
+      value: 0
+    }
+    vtable_components {
+      kind: FunctionPointer
+      mangled_component_name: "_ZN7android8hardware10TextOutput9popBundleEv"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput::Bundle"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::TextOutput::Bundle"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutput6BundleE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "mTO"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  mangled_record_name: "_ZN7android8hardware10TextOutput6BundleE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TypeCode"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::TypeCode"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware8TypeCodeE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "mCode"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  mangled_record_name: "_ZN7android8hardware8TypeCodeE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump"
+      size: 48
+      alignment: 8
+    }
+    name: "android::hardware::HexDump"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDumpE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "mBuffer"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "mSize"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "mBytesPerLine"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "mSingleLineCutoff"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "mAlignment"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "mCArrayStyle"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  mangled_record_name: "_ZN7android8hardware7HexDumpE"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TextOutput::TextOutput"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutputC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware10TextOutputC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TextOutput::~TextOutput"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutputD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware10TextOutputD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::TextOutput::print"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutput5printEPKcm"
+  }
+  mangled_function_name: "_ZN7android8hardware10TextOutput5printEPKcm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 8
+        alignment: 8
+      }
+      name: "txt"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "len"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TextOutput::moveIndent"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutput10moveIndentEi"
+  }
+  mangled_function_name: "_ZN7android8hardware10TextOutput10moveIndentEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "delta"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TextOutput::Bundle::Bundle"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutput6BundleC1ERS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware10TextOutput6BundleC1ERS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TextOutput::Bundle::~Bundle"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutput6BundleD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware10TextOutput6BundleD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TextOutput::pushBundle"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutput10pushBundleEv"
+  }
+  mangled_function_name: "_ZN7android8hardware10TextOutput10pushBundleEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TextOutput::popBundle"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware10TextOutput9popBundleEv"
+  }
+  mangled_function_name: "_ZN7android8hardware10TextOutput9popBundleEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::endl"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware4endlERNS0_10TextOutputE"
+  }
+  mangled_function_name: "_ZN7android8hardware4endlERNS0_10TextOutputE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::indent"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6indentERNS0_10TextOutputE"
+  }
+  mangled_function_name: "_ZN7android8hardware6indentERNS0_10TextOutputE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::dedent"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6dedentERNS0_10TextOutputE"
+  }
+  mangled_function_name: "_ZN7android8hardware6dedentERNS0_10TextOutputE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputERKT_"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputERKT_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const type-parameter-0-0 &"
+      }
+      name: "val"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsIPKcEERNS0_10TextOutputES5_RKT_"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsIPKcEERNS0_10TextOutputES5_RKT_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *const &"
+        size: 8
+        alignment: 8
+      }
+      name: "val"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        type_abi {
+          name: "const char *"
+          size: 8
+          alignment: 8
+        }
+        linker_set_key: "const char *"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputEPFS2_S2_E"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputEPFS2_S2_E"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &(*)(android::hardware::TextOutput &)"
+        size: 8
+        alignment: 8
+      }
+      name: "func"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TypeCode::TypeCode"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware8TypeCodeC1Ej"
+  }
+  mangled_function_name: "_ZN7android8hardware8TypeCodeC1Ej"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "code"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TypeCode::~TypeCode"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware8TypeCodeD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware8TypeCodeD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::TypeCode::typeCode"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware8TypeCode8typeCodeEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware8TypeCode8typeCodeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputERKNS0_8TypeCodeE"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputERKNS0_8TypeCodeE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::TypeCode &"
+        size: 8
+        alignment: 8
+      }
+      name: "val"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::HexDump::HexDump"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDumpC1EPKvmm"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDumpC1EPKvmm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "buf"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "size"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "bytesPerLine"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::HexDump::~HexDump"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDumpD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDumpD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::setBytesPerLine"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDump15setBytesPerLineEm"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDump15setBytesPerLineEm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "bytesPerLine"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::setSingleLineCutoff"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDump19setSingleLineCutoffEi"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDump19setSingleLineCutoffEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "bytes"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::setAlignment"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDump12setAlignmentEm"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDump12setAlignmentEm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "alignment"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::setCArrayStyle"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDump14setCArrayStyleEb"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDump14setCArrayStyleEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "enabled"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "const void *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::buffer"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump6bufferEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump6bufferEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::size"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump4sizeEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump4sizeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::bytesPerLine"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump12bytesPerLineEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump12bytesPerLineEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::HexDump::singleLineCutoff"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump16singleLineCutoffEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump16singleLineCutoffEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::alignment"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump9alignmentEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump9alignmentEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::HexDump::carrayStyle"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump11carrayStyleEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump11carrayStyleEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputERKNS0_7HexDumpE"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputERKNS0_7HexDumpE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::HexDump &"
+        size: 8
+        alignment: 8
+      }
+      name: "val"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputEPFRNSt3__113basic_ostreamIcNS3_11char_traitsIcEEEES8_E"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputEPFRNSt3__113basic_ostreamIcNS3_11char_traitsIcEEEES8_E"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::basic_ostream<char, std::char_traits<char> > &(*)(std::basic_ostream<char, std::char_traits<char> > &)"
+        size: 8
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputERKc"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputERKc"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char &"
+        size: 8
+        alignment: 8
+      }
+      name: "c"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputERKb"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputERKb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const bool &"
+        size: 8
+        alignment: 8
+      }
+      name: "val"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputERKNS_8String16E"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputERKNS_8String16E"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::String16 &"
+        size: 8
+        alignment: 8
+      }
+      name: "val"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::endl"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware4endlERNS0_10TextOutputE"
+  }
+  mangled_function_name: "_ZN7android8hardware4endlERNS0_10TextOutputE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::indent"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6indentERNS0_10TextOutputE"
+  }
+  mangled_function_name: "_ZN7android8hardware6indentERNS0_10TextOutputE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::dedent"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6dedentERNS0_10TextOutputE"
+  }
+  mangled_function_name: "_ZN7android8hardware6dedentERNS0_10TextOutputE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNS0_10TextOutputEPFS2_S2_E"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNS0_10TextOutputEPFS2_S2_E"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &"
+        size: 8
+        alignment: 8
+      }
+      name: "to"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::TextOutput &(*)(android::hardware::TextOutput &)"
+        size: 8
+        alignment: 8
+      }
+      name: "func"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TypeCode::TypeCode"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware8TypeCodeC1Ej"
+  }
+  mangled_function_name: "_ZN7android8hardware8TypeCodeC1Ej"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "code"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::TypeCode::~TypeCode"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware8TypeCodeD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware8TypeCodeD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::TypeCode::typeCode"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware8TypeCode8typeCodeEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware8TypeCode8typeCodeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::HexDump::~HexDump"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDumpD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDumpD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::setBytesPerLine"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDump15setBytesPerLineEm"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDump15setBytesPerLineEm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "bytesPerLine"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::setSingleLineCutoff"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDump19setSingleLineCutoffEi"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDump19setSingleLineCutoffEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "bytes"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::setAlignment"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDump12setAlignmentEm"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDump12setAlignmentEm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "alignment"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::HexDump &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::setCArrayStyle"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7HexDump14setCArrayStyleEb"
+  }
+  mangled_function_name: "_ZN7android8hardware7HexDump14setCArrayStyleEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "enabled"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "const void *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::buffer"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump6bufferEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump6bufferEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::size"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump4sizeEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump4sizeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::bytesPerLine"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump12bytesPerLineEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump12bytesPerLineEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::HexDump::singleLineCutoff"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump16singleLineCutoffEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump16singleLineCutoffEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "unsigned long"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::HexDump::alignment"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump9alignmentEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump9alignmentEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::HexDump::carrayStyle"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7HexDump11carrayStyleEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7HexDump11carrayStyleEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "const char *"
+      size: 8
+      alignment: 8
+    }
+    name: "stringForIndent"
+    access: public_access
+    linker_set_key: "stringForIndent"
+  }
+  mangled_function_name: "stringForIndent"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Debug.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "indentLevel"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "printTypeCode"
+    access: public_access
+    linker_set_key: "printTypeCode"
+  }
+  mangled_function_name: "printTypeCode"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Debug.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned int"
+        size: 4
+        alignment: 4
+      }
+      name: "typeCode"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void (*)(void *, const char *)"
+        size: 8
+        alignment: 8
+      }
+      name: "func"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "printHexData"
+    access: public_access
+    linker_set_key: "printHexData"
+  }
+  mangled_function_name: "printHexData"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/Debug.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "indent"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const void *"
+        size: 8
+        alignment: 8
+      }
+      name: "buf"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "length"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "bytesPerLine"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "singleLineBytesCutoff"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "alignment"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "cArrayStyle"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void (*)(void *, const char *)"
+        size: 8
+        alignment: 8
+      }
+      name: "func"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "void *"
+        size: 8
+        alignment: 8
+      }
+      name: "cookie"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+global_vars {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::alog"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware4alogE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+global_vars {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::aout"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware4aoutE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}
+global_vars {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::TextOutput &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::aerr"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware4aerrE"
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhwbinder/include/hwbinder/TextOutput.h"
+}

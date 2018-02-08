@@ -1,0 +1,27 @@
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::sp<android::hidl::memory::V1_0::IMemory>"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::mapMemory"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware9mapMemoryERKNS0_11hidl_memoryE"
+  }
+  mangled_function_name: "_ZN7android8hardware9mapMemoryERKNS0_11hidl_memoryE"
+  source_file: "system/libhidl/libhidlmemory/include/hidlmemory/mapping.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::hidl_memory &"
+        size: 4
+        alignment: 4
+      }
+      name: "memory"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}

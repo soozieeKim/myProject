@@ -1,0 +1,2204 @@
+records {
+  basic_abi {
+    type_abi {
+      name: "hidl_pointer<T>"
+    }
+    name: "android::hardware::details::hidl_pointer"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointerE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "union android::hardware::details::hidl_pointer::(anonymous at system/libhidl/base/include/hidl/HidlInternal.h:91:5)"
+      }
+      name: ""
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  mangled_record_name: "_ZN7android8hardware7details12hidl_pointerE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "union android::hardware::details::hidl_pointer::(anonymous at system/libhidl/base/include/hidl/HidlInternal.h:91:5)"
+    }
+    name: "android::hardware::details::hidl_pointer::(anonymous)"
+    access: private_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointerUt_E"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0 *"
+      }
+      name: "mPointer"
+      access: public_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "_pad"
+      access: public_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  mangled_record_name: "_ZN7android8hardware7details12hidl_pointerUt_E"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::details::HidlInstrumentor"
+      size: 88
+      alignment: 8
+    }
+    name: "android::hardware::details::HidlInstrumentor"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details16HidlInstrumentorE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > >"
+        size: 24
+        alignment: 8
+      }
+      name: "mInstrumentationCallbacks"
+      access: protected_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "mEnableInstrumentation"
+      access: protected_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+        size: 24
+        alignment: 8
+      }
+      name: "mInstrumentationLibPackage"
+      access: protected_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+        size: 24
+        alignment: 8
+      }
+      name: "mInterfaceName"
+      access: protected_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  mangled_record_name: "_ZN7android8hardware7details16HidlInstrumentorE"
+  vtable_layout {
+    vtable_components {
+      kind: OffsetToTop
+      mangled_component_name: ""
+      value: 0
+    }
+    vtable_components {
+      kind: RTTI
+      mangled_component_name: "_ZN7android8hardware7details16HidlInstrumentorE"
+      value: 0
+    }
+    vtable_components {
+      kind: CompleteDtorPointer
+      mangled_component_name: "_ZN7android8hardware7details16HidlInstrumentorD0Ev"
+      value: 0
+    }
+    vtable_components {
+      kind: UnusedFunctionPointer
+      mangled_component_name: "_ZN7android8hardware7details16HidlInstrumentorD0Ev"
+      value: 0
+    }
+  }
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Status"
+      size: 32
+      alignment: 8
+    }
+    name: "android::hardware::Status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6StatusE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "mException"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "mErrorCode"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+        size: 24
+        alignment: 8
+      }
+      name: "mMessage"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  mangled_record_name: "_ZN7android8hardware6StatusE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::details::return_status"
+      size: 40
+      alignment: 8
+    }
+    name: "android::hardware::details::return_status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13return_statusE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status"
+        size: 32
+        alignment: 8
+      }
+      name: "mStatus"
+      access: private_access
+    }
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "mCheckedStatus"
+      access: private_access
+    }
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  mangled_record_name: "_ZN7android8hardware7details13return_statusE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "Return<T>"
+    }
+    name: "android::hardware::Return"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0"
+      }
+      name: "mVal"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::return_status"
+        size: 40
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  mangled_record_name: "_ZN7android8hardware6ReturnE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "Return<sp<type-parameter-0-0> >"
+    }
+    name: "android::hardware::Return"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEEE"
+  }
+  fields {
+    basic_abi {
+      type_abi {
+        name: "sp<type-parameter-0-0>"
+      }
+      name: "mVal"
+      access: private_access
+    }
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::return_status"
+        size: 40
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  template_info {
+    elements {
+      basic_abi {
+        type_abi {
+          name: "sp<type-parameter-0-0>"
+        }
+        linker_set_key: "sp<type-parameter-0-0>"
+      }
+    }
+  }
+  mangled_record_name: "_ZN7android8hardware6ReturnINS_2spIT_EEEE"
+}
+records {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 40
+      alignment: 8
+    }
+    name: "android::hardware::Return"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnIvEE"
+  }
+  base_specifiers {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::return_status"
+        size: 40
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+    }
+    is_virtual: false
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  template_info {
+    elements {
+      basic_abi {
+        type_abi {
+          name: "void"
+        }
+        linker_set_key: "void"
+      }
+    }
+  }
+  mangled_record_name: "_ZN7android8hardware6ReturnIvEE"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::logAlwaysFatal"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details14logAlwaysFatalEPKc"
+  }
+  mangled_function_name: "_ZN7android8hardware7details14logAlwaysFatalEPKc"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 8
+        alignment: 8
+      }
+      name: "message"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::hidl_pointer::hidl_pointer<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointerC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7details12hidl_pointerC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::hidl_pointer::hidl_pointer<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointerC1EPT_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details12hidl_pointerC1EPT_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0 *"
+      }
+      name: "ptr"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::hidl_pointer::hidl_pointer<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointerC1ERKNS1_12hidl_pointerIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details12hidl_pointerC1ERKNS1_12hidl_pointerIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const hidl_pointer<T> &"
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::hidl_pointer::hidl_pointer<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointerC1EONS1_12hidl_pointerIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details12hidl_pointerC1EONS1_12hidl_pointerIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "hidl_pointer<T> &&"
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "hidl_pointer<T> &"
+    }
+    name: "android::hardware::details::hidl_pointer::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointeraSERKNS1_12hidl_pointerIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details12hidl_pointeraSERKNS1_12hidl_pointerIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const hidl_pointer<T> &"
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "hidl_pointer<T> &"
+    }
+    name: "android::hardware::details::hidl_pointer::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointeraSEONS1_12hidl_pointerIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details12hidl_pointeraSEONS1_12hidl_pointerIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "hidl_pointer<T> &&"
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "hidl_pointer<T> &"
+    }
+    name: "android::hardware::details::hidl_pointer::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointeraSEPT_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details12hidl_pointeraSEPT_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0 *"
+      }
+      name: "ptr"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "type-parameter-0-0 *"
+    }
+    name: "android::hardware::details::hidl_pointer::operator type-parameter-0-0 *"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7details12hidl_pointercvPT_Ev"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details12hidl_pointercvPT_Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::details::hidl_pointer::operator void *"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7details12hidl_pointercvPvEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details12hidl_pointercvPvEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "type-parameter-0-0 &"
+    }
+    name: "android::hardware::details::hidl_pointer::operator*"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7details12hidl_pointerdeEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details12hidl_pointerdeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "type-parameter-0-0 *"
+    }
+    name: "android::hardware::details::hidl_pointer::operator->"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7details12hidl_pointerptEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details12hidl_pointerptEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "type-parameter-0-0 &"
+    }
+    name: "android::hardware::details::hidl_pointer::operator[]"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details12hidl_pointerixEm"
+  }
+  mangled_function_name: "_ZN7android8hardware7details12hidl_pointerixEm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "index"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "const type-parameter-0-0 &"
+    }
+    name: "android::hardware::details::hidl_pointer::operator[]"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7details12hidl_pointerixEm"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details12hidl_pointerixEm"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "unsigned long"
+        size: 8
+        alignment: 8
+      }
+      name: "index"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::HidlInstrumentor::HidlInstrumentor"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details16HidlInstrumentorC1ERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details16HidlInstrumentorC1ERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 8
+        alignment: 8
+      }
+      name: "package"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &"
+        size: 8
+        alignment: 8
+      }
+      name: "insterface"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::HidlInstrumentor::~HidlInstrumentor"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details16HidlInstrumentorD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7details16HidlInstrumentorD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::HidlInstrumentor::configureInstrumentation"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware7details16HidlInstrumentor24configureInstrumentationEb"
+  }
+  mangled_function_name: "_ZN7android8hardware7details16HidlInstrumentor24configureInstrumentationEb"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "bool"
+        size: 1
+        alignment: 1
+      }
+      name: "log"
+      access: public_access
+      linker_set_key: "true"
+    }
+    default_arg: true
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::HidlInstrumentor::registerInstrumentationCallbacks"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware7details16HidlInstrumentor32registerInstrumentationCallbacksEPNSt3__16vectorINS3_8functionIFvNS2_20InstrumentationEventEPKcS8_S8_S8_PNS4_IPvNS3_9allocatorIS9_EEEEEEENSA_ISF_EEEE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details16HidlInstrumentor32registerInstrumentationCallbacksEPNSt3__16vectorINS3_8functionIFvNS2_20InstrumentationEventEPKcS8_S8_S8_PNS4_IPvNS3_9allocatorIS9_EEEEEEENSA_ISF_EEEE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > > *"
+        size: 8
+        alignment: 8
+      }
+      name: "instrumentationCallbacks"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::details::HidlInstrumentor::isInstrumentationLib"
+    access: protected_access
+    linker_set_key: "_ZN7android8hardware7details16HidlInstrumentor20isInstrumentationLibEPK6dirent"
+  }
+  mangled_function_name: "_ZN7android8hardware7details16HidlInstrumentor20isInstrumentationLibEPK6dirent"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const dirent *"
+        size: 8
+        alignment: 8
+      }
+      name: "file"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Status"
+      size: 32
+      alignment: 8
+    }
+    name: "android::hardware::Status::ok"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6Status2okEv"
+  }
+  mangled_function_name: "_ZN7android8hardware6Status2okEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Status"
+      size: 32
+      alignment: 8
+    }
+    name: "android::hardware::Status::fromExceptionCode"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6Status17fromExceptionCodeEi"
+  }
+  mangled_function_name: "_ZN7android8hardware6Status17fromExceptionCodeEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "exceptionCode"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Status"
+      size: 32
+      alignment: 8
+    }
+    name: "android::hardware::Status::fromExceptionCode"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6Status17fromExceptionCodeEiPKc"
+  }
+  mangled_function_name: "_ZN7android8hardware6Status17fromExceptionCodeEiPKc"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "exceptionCode"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 8
+        alignment: 8
+      }
+      name: "message"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Status"
+      size: 32
+      alignment: 8
+    }
+    name: "android::hardware::Status::fromStatusT"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6Status11fromStatusTEi"
+  }
+  mangled_function_name: "_ZN7android8hardware6Status11fromStatusTEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "status"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Status::Status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6StatusC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware6StatusC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Status::~Status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6StatusD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware6StatusD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Status::Status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6StatusC1ERKS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware6StatusC1ERKS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Status &"
+        size: 8
+        alignment: 8
+      }
+      name: "status"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Status::Status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6StatusC1EOS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware6StatusC1EOS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status &&"
+        size: 8
+        alignment: 8
+      }
+      name: "status"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Status &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::Status::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6StatusaSERKS1_"
+  }
+  mangled_function_name: "_ZN7android8hardware6StatusaSERKS1_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Status &"
+        size: 8
+        alignment: 8
+      }
+      name: "status"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Status::setException"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6Status12setExceptionEiPKc"
+  }
+  mangled_function_name: "_ZN7android8hardware6Status12setExceptionEiPKc"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "ex"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 8
+        alignment: 8
+      }
+      name: "message"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Status::setFromStatusT"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6Status14setFromStatusTEi"
+  }
+  mangled_function_name: "_ZN7android8hardware6Status14setFromStatusTEi"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "status"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::Status::exceptionCode"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware6Status13exceptionCodeEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware6Status13exceptionCodeEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "const char *"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::Status::exceptionMessage"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware6Status16exceptionMessageEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware6Status16exceptionMessageEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::Status::transactionError"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware6Status16transactionErrorEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware6Status16transactionErrorEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::Status::isOk"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware6Status4isOkEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware6Status4isOkEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 24
+      alignment: 8
+    }
+    name: "android::hardware::Status::description"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware6Status11descriptionEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware6Status11descriptionEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Status::Status"
+    access: private_access
+    linker_set_key: "_ZN7android8hardware6StatusC1Eii"
+  }
+  mangled_function_name: "_ZN7android8hardware6StatusC1Eii"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "exceptionCode"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "errorCode"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Status::Status"
+    access: private_access
+    linker_set_key: "_ZN7android8hardware6StatusC1EiiPKc"
+  }
+  mangled_function_name: "_ZN7android8hardware6StatusC1EiiPKc"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "exceptionCode"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "int"
+        size: 4
+        alignment: 4
+      }
+      name: "errorCode"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const char *"
+        size: 8
+        alignment: 8
+      }
+      name: "message"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_ostream<char, std::char_traits<char> > &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::operator<<"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwarelsERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEERKNS0_6StatusE"
+  }
+  mangled_function_name: "_ZN7android8hardwarelsERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEERKNS0_6StatusE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "std::basic_ostream<char, std::char_traits<char> > &"
+        size: 8
+        alignment: 8
+      }
+      name: "stream"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::Status &"
+        size: 8
+        alignment: 8
+      }
+      name: "s"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "Return<type-parameter-0-1>"
+    }
+    name: "android::hardware::details::StatusOf"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details8StatusOfERKNS0_6ReturnIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details8StatusOfERKNS0_6ReturnIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const Return<type-parameter-0-0> &"
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "U"
+        linker_set_key: "U"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::return_status::assertOk"
+    access: protected_access
+    linker_set_key: "_ZNK7android8hardware7details13return_status8assertOkEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details13return_status8assertOkEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::return_status::return_status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13return_statusC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13return_statusC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::return_status::return_status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13return_statusC1ENS0_6StatusE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13return_statusC1ENS0_6StatusE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status"
+        size: 32
+        alignment: 8
+      }
+      name: "s"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::return_status::return_status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13return_statusC1ERKS2_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13return_statusC1ERKS2_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::details::return_status &"
+        size: 8
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::details::return_status &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::details::return_status::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13return_statusaSERKS2_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13return_statusaSERKS2_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const android::hardware::details::return_status &"
+        size: 8
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::return_status::return_status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13return_statusC1EOS2_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13return_statusC1EOS2_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::return_status &&"
+        size: 8
+        alignment: 8
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::details::return_status &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::details::return_status::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13return_statusaSEOS2_"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13return_statusaSEOS2_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::return_status &&"
+        size: 8
+        alignment: 8
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::details::return_status::~return_status"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details13return_statusD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware7details13return_statusD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::details::return_status::isOk"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7details13return_status4isOkEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details13return_status4isOkEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "bool"
+      size: 1
+      alignment: 1
+    }
+    name: "android::hardware::details::return_status::isDeadObject"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7details13return_status12isDeadObjectEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details13return_status12isDeadObjectEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "std::basic_string<char, std::char_traits<char>, std::allocator<char> >"
+      size: 24
+      alignment: 8
+    }
+    name: "android::hardware::details::return_status::description"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware7details13return_status11descriptionEv"
+  }
+  mangled_function_name: "_ZNK7android8hardware7details13return_status11descriptionEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return::Return<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnC1ET_"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnC1ET_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0"
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return::Return<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnC1ENS0_6StatusE"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnC1ENS0_6StatusE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status"
+        size: 32
+        alignment: 8
+      }
+      name: "s"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return::Return<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnC1EONS0_6ReturnIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnC1EONS0_6ReturnIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "Return<T> &&"
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "Return<T> &"
+    }
+    name: "android::hardware::Return::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnaSEONS0_6ReturnIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnaSEONS0_6ReturnIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "Return<T> &&"
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return::~Return<T>"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnD0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnD0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "type-parameter-0-0"
+    }
+    name: "android::hardware::Return::operator type-parameter-0-0"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware6ReturncvT_Ev"
+  }
+  mangled_function_name: "_ZNK7android8hardware6ReturncvT_Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::Return<sp<type-parameter-0-0> >"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1ES4_"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1ES4_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "sp<type-parameter-0-0>"
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::Return<sp<type-parameter-0-0> >"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1EPS3_"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1EPS3_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-0-0 *"
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::Return<sp<type-parameter-0-0> >"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1ENS2_IT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1ENS2_IT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "sp<type-parameter-1-0>"
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "U"
+        linker_set_key: "U"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::Return<sp<type-parameter-0-0> >"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1EPT_"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1EPT_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "type-parameter-1-0 *"
+      }
+      name: "v"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "U"
+        linker_set_key: "U"
+      }
+    }
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::Return<sp<type-parameter-0-0> >"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1ENS0_6StatusE"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1ENS0_6StatusE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status"
+        size: 32
+        alignment: 8
+      }
+      name: "s"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::Return<sp<type-parameter-0-0> >"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1EONS1_IS4_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnINS_2spIT_EEEC1EONS1_IS4_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "Return<sp<type-parameter-0-0> > &&"
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "Return<sp<type-parameter-0-0> > &"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEEaSEONS1_IS4_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnINS_2spIT_EEEaSEONS1_IS4_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "Return<sp<type-parameter-0-0> > &&"
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::~Return<sp<type-parameter-0-0> >"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnINS_2spIT_EEED0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnINS_2spIT_EEED0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "sp<type-parameter-0-0>"
+    }
+    name: "android::hardware::Return<sp<type-parameter-0-0> >::operator sp<type-parameter-0-0>"
+    access: public_access
+    linker_set_key: "_ZNK7android8hardware6ReturnINS_2spIT_EEEcvS4_Ev"
+  }
+  mangled_function_name: "_ZNK7android8hardware6ReturnINS_2spIT_EEEcvS4_Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<void>::Return"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnIvEC1Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnIvEC1Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<void>::Return"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnIvEC1ENS0_6StatusE"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnIvEC1ENS0_6StatusE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status"
+        size: 32
+        alignment: 8
+      }
+      name: "s"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<void>::Return"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnIvEC1EOS2_"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnIvEC1EOS2_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Return<void> &&"
+        size: 8
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void> &"
+      size: 8
+      alignment: 8
+    }
+    name: "android::hardware::Return<void>::operator="
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnIvEaSEOS2_"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnIvEaSEOS2_"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Return<void> &&"
+        size: 8
+        alignment: 8
+      }
+      name: ""
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "void"
+    }
+    name: "android::hardware::Return<void>::~Return"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6ReturnIvED0Ev"
+  }
+  mangled_function_name: "_ZN7android8hardware6ReturnIvED0Ev"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "android::hardware::Return<void>"
+      size: 40
+      alignment: 8
+    }
+    name: "android::hardware::Void"
+    access: public_access
+    linker_set_key: "_ZN7android8hardwareL4VoidEv"
+  }
+  mangled_function_name: "_ZN7android8hardwareL4VoidEv"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
+functions {
+  basic_abi {
+    type_abi {
+      name: "Return<type-parameter-0-1>"
+    }
+    name: "android::hardware::details::StatusOf"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details8StatusOfERKNS0_6ReturnIT_EE"
+  }
+  mangled_function_name: "_ZN7android8hardware7details8StatusOfERKNS0_6ReturnIT_EE"
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+  parameters {
+    basic_abi {
+      type_abi {
+        name: "const Return<type-parameter-0-0> &"
+      }
+      name: "other"
+      access: public_access
+      linker_set_key: "false"
+    }
+    default_arg: false
+  }
+  template_info {
+    elements {
+      basic_abi {
+        name: "T"
+        linker_set_key: "T"
+      }
+    }
+    elements {
+      basic_abi {
+        name: "U"
+        linker_set_key: "U"
+      }
+    }
+  }
+}
+enums {
+  basic_abi {
+    type_abi {
+      name: "unsigned int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware7details16HidlInstrumentor20InstrumentationEventE"
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::SERVER_API_ENTRY"
+      access: public_access
+      linker_set_key: "0"
+    }
+    enum_field_value: 0
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::SERVER_API_EXIT"
+      access: public_access
+      linker_set_key: "1"
+    }
+    enum_field_value: 1
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::CLIENT_API_ENTRY"
+      access: public_access
+      linker_set_key: "2"
+    }
+    enum_field_value: 2
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::CLIENT_API_EXIT"
+      access: public_access
+      linker_set_key: "3"
+    }
+    enum_field_value: 3
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::SYNC_CALLBACK_ENTRY"
+      access: public_access
+      linker_set_key: "4"
+    }
+    enum_field_value: 4
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::SYNC_CALLBACK_EXIT"
+      access: public_access
+      linker_set_key: "5"
+    }
+    enum_field_value: 5
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::ASYNC_CALLBACK_ENTRY"
+      access: public_access
+      linker_set_key: "6"
+    }
+    enum_field_value: 6
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::ASYNC_CALLBACK_EXIT"
+      access: public_access
+      linker_set_key: "7"
+    }
+    enum_field_value: 7
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::PASSTHROUGH_ENTRY"
+      access: public_access
+      linker_set_key: "8"
+    }
+    enum_field_value: 8
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::details::HidlInstrumentor::InstrumentationEvent::PASSTHROUGH_EXIT"
+      access: public_access
+      linker_set_key: "9"
+    }
+    enum_field_value: 9
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/HidlInternal.h"
+}
+enums {
+  basic_abi {
+    type_abi {
+      name: "int"
+      size: 4
+      alignment: 4
+    }
+    name: "android::hardware::Status::Exception"
+    access: public_access
+    linker_set_key: "_ZN7android8hardware6Status9ExceptionE"
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_NONE"
+      access: public_access
+      linker_set_key: "0"
+    }
+    enum_field_value: 0
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_SECURITY"
+      access: public_access
+      linker_set_key: "18446744073709551615"
+    }
+    enum_field_value: -1
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_BAD_PARCELABLE"
+      access: public_access
+      linker_set_key: "18446744073709551614"
+    }
+    enum_field_value: -2
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_ILLEGAL_ARGUMENT"
+      access: public_access
+      linker_set_key: "18446744073709551613"
+    }
+    enum_field_value: -3
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_NULL_POINTER"
+      access: public_access
+      linker_set_key: "18446744073709551612"
+    }
+    enum_field_value: -4
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_ILLEGAL_STATE"
+      access: public_access
+      linker_set_key: "18446744073709551611"
+    }
+    enum_field_value: -5
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_NETWORK_MAIN_THREAD"
+      access: public_access
+      linker_set_key: "18446744073709551610"
+    }
+    enum_field_value: -6
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_UNSUPPORTED_OPERATION"
+      access: public_access
+      linker_set_key: "18446744073709551609"
+    }
+    enum_field_value: -7
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_HAS_REPLY_HEADER"
+      access: public_access
+      linker_set_key: "18446744073709551488"
+    }
+    enum_field_value: -128
+  }
+  enum_fields {
+    basic_abi {
+      type_abi {
+        name: "android::hardware::Status::Exception"
+        size: 4
+        alignment: 4
+      }
+      name: "android::hardware::Status::Exception::EX_TRANSACTION_FAILED"
+      access: public_access
+      linker_set_key: "18446744073709551487"
+    }
+    enum_field_value: -129
+  }
+  source_file: "/home/suhwa.kim/CONA_Proj/android/system/libhidl/base/include/hidl/Status.h"
+}
